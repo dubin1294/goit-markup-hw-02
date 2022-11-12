@@ -1,6 +1,148 @@
-.body { font-family: "Open Sans", "Releway", "sans-serif";
+body {
+    font-family: "Releway" "Roboto"
+
 
 }
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+}
+
+.main-studio {}
+
+.main-portfolio {}
+
+/* Шапка сайту*/
+
+.header {
+    background-color: #FFFFFF;
+}
+
+
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway';
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration-line: none;
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+
+
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+
+.link:focus {
+    color: #2196F3;
+}
+
+.link:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration-line: none;
+    font-family: 'Roboto';
+
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+/*Навігація на інші сторінки*/
+.header-items {}
+
+.header-item {}
+
+.header-link {}
+
+
+.nav-items {}
+
+.nav-item {}
+
+.nav-link {
+    color: #757575;
+}
+
+/* Слонаг Компанії */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #2F303A;
+    ;
+}
+
+/*  Особливості*/
+
+.feature {}
 
 .visually-hidden {
     position: absolute;
@@ -15,3 +157,132 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.feature-items {}
+
+.feature-item {}
+
+.feature-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+
+}
+
+.feature-article {}
+
+/* Вид діяльності */
+
+.activity {}
+
+.activity-title {}
+
+.activity-items {}
+
+.activity-item {}
+
+/* Команда */
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {}
+
+.team-items {}
+
+.team-item {}
+
+.team-member {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.team-position {}
+
+/* Підвал */
+
+.footer {
+    background: #2F303A;
+}
+
+.address-items {}
+
+.address-item {}
+
+.address-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфоліо */
+
+.portfolio {}
+
+.button-portfolio {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+}
+
+
+.button-portfolio:hover {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.button-portfolio:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+
+}
+
+.button-items {}
+
+.button-item {}
+
+.portfolio-items {}
+
+.portfolio-item {}
+
+.portfolio-title {}
+
+.portfolio-article {}
