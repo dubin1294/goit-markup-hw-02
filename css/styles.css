@@ -8,9 +8,9 @@
 
 body {
     font-family: "Roboto", "sans-serif ";
-    background-color: #FFFFFF;
+    background-color: var(--third-color);
     font-size: 14px;
-    color: #212121;
+    color: var(--rimary-color);
     letter-spacing: 0.03em;
 
 }
@@ -25,9 +25,7 @@ ul {
 
 /* Шапка сайту*/
 
-.header {
-    background-color: #FFFFFF;
-}
+.header {}
 
 
 .header-logo,
@@ -45,24 +43,21 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #2196F3;
+    color: var(--accent-color);
 
 }
 
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
     cursor: pointer;
 }
 
 .link {
     text-decoration-line: none;
-    font-weight: 500;
-    line-height: 1.1;
-    color: #212121;
 
 }
 
@@ -71,7 +66,12 @@ ul {
 
 .header-item {}
 
-.header-link {}
+.header-link {
+    text-decoration-line: none;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--primary-color);
+}
 
 
 .nav-items {}
@@ -79,7 +79,7 @@ ul {
 .nav-item {}
 
 .nav-link {
-    color: var(--second-color)
+    color: var(--second-color);
 }
 
 /* Слонаг Компанії */
@@ -113,7 +113,7 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--third-color);
     cursor: pointer;
 }
 
@@ -145,21 +145,22 @@ ul {
 .feature-item {}
 
 .feature-title {
-
+    text-transform: uppercase;
     font-size: 14px;
     line-height: 1.1;
 }
 
 .feature-article {
     line-height: 1.71;
-    color: var(--second-color)
+    color: var(--second-color);
+
 }
 
 /* Вид діяльності */
 
 .activity {}
 
-.activity-title {}
+.section-title {}
 
 .activity-items {}
 
@@ -171,7 +172,7 @@ ul {
     background: #F5F4FA;
 }
 
-.team-title {}
+
 
 .team-items {}
 
@@ -184,14 +185,14 @@ ul {
     line-height: 1.9;
 
 
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .team-position {
 
-
+    color: var(--second-color);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 
 }
 
@@ -202,7 +203,8 @@ ul {
 }
 
 .footer-logo {
-    color: #FFFFFF;
+    color: var(--third-color);
+
 }
 
 
@@ -211,24 +213,23 @@ ul {
 .address-item {}
 
 .address-link {
-    font-family: 'Roboto';
+
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+
+
     line-height: 1.7;
     text-decoration-line: none;
 
-    color: #FFFFFF;
+    color: var(--third-color);
 
 }
 
 .footer-link {
-    font-family: 'Roboto';
+
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+
     line-height: 1.7;
-    letter-spacing: 0.03em;
+
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -244,15 +245,18 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
-    color: var(--primary-color) cursor: pointer;
+    color: var(--primary-color);
+
 }
 
 
 .button-portfolio:hover {
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--third-color);
+    cursor: pointer;
+
 }
 
 .button-portfolio:focus {
@@ -260,6 +264,7 @@ ul {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: #FFFFFF;
+
 
 }
 
@@ -274,13 +279,13 @@ ul {
 .portfolio-title {
 
     font-size: 18px;
-    line-height: 1.85;
-    letter-spacing: 0.06em;
+    line-height: 2;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-article {
     color: var(--second-color);
     font-size: 18px;
-    line-height: 1.85;
-    letter-spacing: 0.06em;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
