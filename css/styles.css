@@ -3,7 +3,6 @@
     --second-color: #757575;
     --third-color: #ffffff;
     --accent-color: #2196f3;
-
 }
 
 body {
@@ -23,7 +22,7 @@ ul {
 
 .main-portfolio {}
 
-/* Шапка сайту*/
+/* ХЕДЕР */
 
 .header {}
 
@@ -85,7 +84,7 @@ ul {
     line-height: 1.1;
 }
 
-/* Слонаг Компанії */
+/*  Слонаг Компанії  */
 
 .hero {
     background: #2F303A;
@@ -125,7 +124,7 @@ ul {
     ;
 }
 
-/*  Особливості*/
+/*  Особливості  */
 
 .feature {}
 
@@ -159,17 +158,21 @@ ul {
 
 }
 
-/* Вид діяльності */
+/*  Вид діяльності  */
 
 .activity {}
 
-.section-title {}
+.section-title {
+    font-size: 36 px;
+    line-height: calc(42/36);
+    text-align: center;
+}
 
 .activity-items {}
 
 .activity-item {}
 
-/* Команда */
+/*  Команда  */
 
 .team {
     background: #F5F4FA;
@@ -199,7 +202,7 @@ ul {
 
 }
 
-/* Підвал */
+/*  ФУТЕР  */
 
 .footer {
     background: #2F303A;
@@ -236,7 +239,7 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Портфоліо */
+/*  ПОРТФОЛІО  */
 
 .portfolio {}
 
