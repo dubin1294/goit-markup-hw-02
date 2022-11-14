@@ -80,6 +80,9 @@ ul {
 
 .nav-link {
     color: var(--second-color);
+    text-decoration-line: none;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 /* Слонаг Компанії */
